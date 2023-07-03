@@ -28,5 +28,5 @@ for div in div_elements:
 f = open('playlists.csv', 'w', encoding='utf-8')
 f.write("data, title, link\n")
 for video in videos:
-    f.write("\"" + video[0]+ "\", \"" + video[1] + "\", \"" + video[2] + "\"\n")
+    f.write("\"" + video[0]+ "\",\"" + video[1] + "\"," + video[2] + "\n")
 driver.close()
